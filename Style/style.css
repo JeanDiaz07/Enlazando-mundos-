@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'MiFuente';
+    src: url('../Tipografia/Caudex/Caudex-Bold.ttf') format('woff2');
+   
+  }
+ 
+  
+  body {
+    /* Fondo + velo blanco semitransparente en una sola propiedad */
+    background-image:
+      linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)),
+      url("../imagenes/logo.jpeg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  /* Centrar el contenido */
+  main{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  section {
+    width: 40%;
+    max-width: 720px; /* opcional */
+    /*background: #fff; */
+    text-align: center;
+    padding: 20px;
+    /*border-radius: 10px;
+    box-shadow: 10px 5px 2px 3px rgba(0,0,0,.15);*/
+    font-family:'Mifuente' ;
+    
+    font-size: 50px ;
+  font-weight: 200;
+  }
+
+ 
+  .login {
+    margin: 10px 10px ;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgb(196, 87, 54);
+    width: 200px; height: 60px;
+    padding: 15px;
+    text-decoration: none;
+    font-family:'Mifuente' ;
+   
+    box-shadow: 5px 4px 8px rgba(0,0,0,0.45);
+  }
+  
+
+  @media (min-width: 577px) and (max-width: 992px){
+    section {
+        width: 40%;
+        max-width: 720px; /* opcional */
+        /*background: #fff; */
+        text-align: center;
+        padding: 20px;
+        /*border-radius: 10px;
+        box-shadow: 10px 5px 2px 3px rgba(0,0,0,.15);*/
+        font-family:'Mifuente' ;
+        
+        font-size: 30px ;
+      font-weight: 200;
+      }
+
+
+
+  }
