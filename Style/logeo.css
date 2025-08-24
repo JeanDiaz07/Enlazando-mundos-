@@ -27,3 +27,22 @@ border-radius:7px ;
 button {
     margin: 2%;
 }
+@media (max-width: 433px){
+    #form{
+        width: 60%;
+        height: auto;
+        padding: 10%;
+        background-color: rgb(240, 170, 44);
+         text-align: center;
+         margin: 40% 20%;
+     
+     }
+     #form input{
+        width: 60%;
+        height: auto;
+        border-radius:7px ;
+        
+        }
+
+}
+
