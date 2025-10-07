@@ -25,13 +25,25 @@ height: 100vh;
 }
 .Ley {
     width:100% ;
-    background-color: rgb(240, 170, 44);
+    background-color: rgb(68, 140, 141);
+    padding: 5% 1%;
+    text-align: center;
+}
+.Mision{
+    width: 100%;
+    background-color: #f0d0cb;
+    padding: 5% 1%;
+    text-align: center;
+}
+.Vision{
+    width: 100%;
+    background-color: #fdbb2d;
     padding: 5% 1%;
     text-align: center;
 }
 .mito{
     width:100% ;
-    background-color: rgb(68, 140, 141);
+    background-color:  rgb(240, 170, 44);
     padding: 5% 1%;
     text-align: center;
 }
