@@ -44,15 +44,85 @@
   font-weight: 200;
   }
 
+#botones {
+  display: flex;
+  justify-content: space-between; /* manda a extremos */
+  align-items: center;
+  padding: 20px;
+}
+
+
+/* Contenedor del acordeón */
+#accordionFlushExample {
+  position: absolute;        /* Flotante, no afecta el layout */
+  top: 20px;              /* distancia desde arriba */
+  right: 20px;            /* distancia desde la derecha */
+  width: 260px;           /* ancho fijo */
+  z-index: 1100;          /* encima de otros elementos */
+  border-radius: 12px;    /* bordes redondeados */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* sombra flotante */
+  overflow: hidden;
+}
+
+/* Item del acordeón */
+#accordionFlushExample .accordion-item {
+  border: none; /* sin bordes extra */
+}
+
+/* Botón principal */
+#accordionFlushExample .accordion-button {
+  background-color: #d88a1a; /* amarillo/naranja */
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+}
+
+/* Quitar estilo azul al hacer clic */
+#accordionFlushExample .accordion-button:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+/* Cuando está abierto */
+#accordionFlushExample .accordion-button:not(.collapsed) {
+  background-color: #c67816; /* tono más oscuro */
+  color: white;
+}
+
+/* Cuerpo del acordeón */
+#accordionFlushExample .accordion-body {
+  background: #f7f7f7;
+  padding: 15px;
+  font-size: 14px;
+  color: #333;
+  border-radius: 0 0 12px 12px;
+  line-height: 1.6;
+}
+
+/* Párrafos internos */
+#accordionFlushExample .accordion-body p {
+  margin: 8px 0;
+  font-weight: 500;
+}
+
  
+
+
+
+
+
   .login {
-    margin: 10px 10px ;
+    margin: 5px 10px ;
     color: white;
     text-align: center;
     border-radius: 8px;
     background-color: rgb(196, 87, 54);
-    width: 200px; height: 60px;
-    padding: 15px;
+    width: 200px; height: 70px;
+    padding: 4px;
     text-decoration: none;
     font-family:'Mifuente' ;
    
@@ -74,21 +144,14 @@
         font-size: 30px ;
       font-weight: 200;
       }
-
-
-
-
-  }
-@media (max-width: 433px){
+    }
+      @media (max-width: 433px){
         section {
             width: 80%;
-            height:auto;
             max-width: 720px; /* opcional */
             /*background: #fff; */
             text-align: center;
             padding: 20px;
-            /*border-radius: 10px;
-            box-shadow: 10px 5px 2px 3px rgba(0,0,0,.15);*/
             font-family:'Mifuente' ;
             
             font-size: 30px ;
@@ -99,4 +162,3 @@
           }
 
   }
-
