@@ -31,6 +31,30 @@ font-family:'MiFuente';
 text-align: center;
 
 }
+
+.titulo {
+padding: 1% 2%;
+
+}
+.titulo #Valores{
+
+    text-align: justify;
+    
+
+}
+.accordion-body p {
+padding: 2% 20%;
+text-align: justify;
+
+
+}
+.accordion-body ul a{
+    
+font-size: 20px;
+
+
+}
+
 .btn-whatsapp {
     position: fixed;          /* 👈 siempre visible */
     bottom: 20px;             /* distancia desde abajo */
