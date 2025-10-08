@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'MiFuente';
     src: url('../Tipografia/Caudex/Caudex-Bold.ttf') format('woff2');
@@ -21,13 +22,88 @@ height: 100vh;
     height:auto ;
     background-color: rgb(213, 77, 52);
     padding: 5% 1%;
-    text-align: center;
+    text-align: left;
+
 }
-.Ley {
+.quees h1{
+margin-left: 10% ;
+
+
+}
+.quees section{
+width: 100%;
+height: auto;
+display: flex;
+
+
+}
+.quees section div{
+
+width: 50%;
+height: auto;
+padding: 5% 1%;
+
+
+}
+
+.quees section div p{
+
+text-align: justify;
+
+}
+.quees div img{
+width: 80%;
+height: auto;
+margin-top: 10%;
+
+
+}
+#Ley {
     width:100% ;
     background-color: rgb(68, 140, 141);
-    padding: 5% 1%;
-    text-align: center;
+    padding: 4% 2%;
+   
+   
+    
+}
+#LeyTea {
+    width: 100%;
+    height: auto;
+display: flex;
+
+
+}
+#leyFInal{
+width: 60%;
+height: auto;
+display: block;
+text-align: center;
+margin: 2% 20%;
+
+}
+.accordion-body section {
+width: 50%;
+height: auto;
+text-align: justify;
+padding: 5% 2%;
+}
+.accordion-body section a{
+padding: 2% 40%;
+
+
+}
+.accordion-body img{
+width: 40%;
+height: auto;
+margin-top: -10%;
+
+
+
+}
+
+
+#Ley h1{
+   padding: 0% 40%;
 }
 .Mision{
     width: 100%;
@@ -35,23 +111,32 @@ height: 100vh;
     padding: 5% 1%;
     text-align: center;
 }
-.Vision{
-    width: 100%;
-    background-color: #fdbb2d;
-    padding: 5% 1%;
-    text-align: center;
-}
-.mito{
+
+#ley2{
     width:100% ;
     background-color:  rgb(240, 170, 44);
     padding: 5% 1%;
     text-align: center;
 }
-.leyes{
+
+#ley2 h1{
+
+padding: 0% 40%;
+
+}
+
+#leyes{
+
     width:100% ;
-    background-color: rgb(187, 187, 187);
-    padding: 5% 1%;
-    text-align: center;
+    background-color:  rgb(187, 187, 187);
+    padding: 4% 2%;
+   
+   
+}
+#leyes h1{
+
+padding: 0% 40%;
+
 }
 .logo{
 
@@ -78,4 +163,3 @@ height: 100vh;
     width: 40px ;
     height: 40px;
 }
-
