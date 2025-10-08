@@ -36,8 +36,30 @@ main h1 {
 padding: 2% 0;
 
 }
+#ImgTecn {
 
+display: flex;
+padding: 0 20%;
 
+}
+#ImgTecn img {
+
+width: 250px;
+height: auto;
+margin: 3%;
+}
+#imgEspacio img{
+width: 300px;
+height: auto;
+}
+#txtApoyo section {
+padding: 2% 20%;
+text-align: justify;
+
+}
+#txtApoyo section #intro {
+  text-align: center;
+}
 
 .btn-whatsapp {
     position: fixed;          /* 👈 siempre visible */
