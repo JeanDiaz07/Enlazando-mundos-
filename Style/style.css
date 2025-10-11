@@ -146,6 +146,22 @@
       }
     }
       @media (max-width: 433px){
+
+
+        body { background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+  background-size: 140%;
+  
+  }
+  .login {
+ width: 120px;
+ height: 60px;
+font-size: large;
+text-align: center;
+ margin: 20px 20px ;
+ padding: 4px 10px;
+  }
         section {
             width: 80%;
             max-width: 720px; /* opcional */
@@ -157,8 +173,35 @@
             font-size: 30px ;
           font-weight: 200;
           }    
-          .login {
-            margin: 30px 20px ;
-          }
+          
+  #ButtonPaso h5{
+font-size: medium;
 
+
+  }        
+
+  #accordionFlushExample {
+
+    width: 150px;
   }
+#accordionFlushExample .accordion-button{
+
+width: 150px;
+
+}
+
+#accordionFlushExample .accordion-body {
+
+width: 150px;
+
+}
+#accordionFlushExample .accordion-button:not(.collapsed) {
+width: 150px;
+}
+#accordionFlushExample .accordion-item{
+
+width: 150px;
+
+}
+  }
+
