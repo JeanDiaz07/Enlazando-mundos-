@@ -36,6 +36,59 @@ main h1 {
 padding: 2% 0;
 
 }
+#flush-collapseOne {
+
+ background-image:
+      linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)),
+      url("../imagenes/logo.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+#flush-collapseTwo {
+
+ background-image:
+      linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)),
+      url("../imagenes/logo.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+#flush-collapseThree {
+
+ background-image:
+      linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)),
+      url("../imagenes/logo.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+#flush-collapseFour {
+
+ background-image:
+      linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)),
+      url("../imagenes/logo.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+
 #ImgTecn {
 
 display: flex;
@@ -47,6 +100,19 @@ padding: 0 20%;
 width: 250px;
 height: auto;
 margin: 3%;
+}
+#imgEspacio {
+    background-image:
+      linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)),
+      url("../imagenes/logo.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+
 }
 #imgEspacio img{
 width: 300px;
@@ -102,6 +168,11 @@ height: auto;
 #txtApoyo section {
 padding: 2% 20%;
 font-size: 70%;
+
+}
+#SubTitulo{
+font-size: medium;
+
 
 }
 }
