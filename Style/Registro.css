@@ -1,0 +1,70 @@
+body {
+    /* Fondo + velo blanco semitransparente en una sola propiedad */
+    background-image:
+      linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)),
+      url("../imagenes/logo.jpeg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+
+#form{
+   width: 60%;
+   height: auto;
+   padding: 10%;
+   background-color: rgb(240, 170, 44);
+    text-align: center;
+    margin: 10%;
+    border-radius: 20px;
+
+}
+#form input{
+border-radius:7px ;
+
+}
+button {
+    margin: 2%;
+}
+#Volver{
+ color: black;
+ border: 2px solid black;
+
+  padding: 2px;
+background-color: beige;
+  width: 120px;
+height: auto;
+  text-decoration: none;
+
+
+}
+
+@media (max-width: 433px){
+    #form{
+        width: 60%;
+        height: auto;
+        padding: 10%;
+        background-color: rgb(240, 170, 44);
+         text-align: center;
+         margin: 40% 20%;
+         border-radius: 20px;
+     
+     }
+     #form input{
+        width: 60%;
+        height: auto;
+        border-radius:7px ;
+        
+        }
+
+        body{
+
+ background-repeat: no-repeat;
+    background-position: center;
+  background-size: 140%;
+
+        }
+
+}
