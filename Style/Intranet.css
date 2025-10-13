@@ -16,44 +16,49 @@ height: 100vh;
 
 
 }
-.quees {
-    width:100% ;
-    height:auto ;
+#Bienestar {
+    width: 100%;
+background-color:rgb(213, 77, 52) ;
+padding: 5% 1%;
+    text-align: center;
+
+}
+#Bienestar h1{
+
+padding: 0% 40%;
+
+}
+
+
+
+#quees {
+   
     background-color: rgb(213, 77, 52);
-    padding: 5% 1%;
-    text-align: left;
+   
 
 }
-.quees h1{
-margin-left: 10% ;
 
-
-}
-.quees section{
+#quees section{
 width: 100%;
 height: auto;
-display: flex;
-
-
-}
-.quees section div{
-
-width: 50%;
-height: auto;
-padding: 5% 1%;
-
+display: flex;  
+padding: 5% 10%;
 
 }
 
-.quees section div p{
+
+#quees section div p{
 
 text-align: justify;
 
 }
-.quees div img{
-width: 80%;
+#quees div img{
+width: 400px;
 height: auto;
+margin-left: 20%;
 margin-top: 10%;
+
+
 
 
 }
@@ -165,12 +170,31 @@ padding: 0% 40%;
 }
 
 @media (max-width: 433px){
-    .quees section div{
-    padding: 3% 0% 0% 10%;
+    #Bienestar{
+    text-align: center;
+
 
 
     }
-.quees section div p{
+
+    #quees section{
+
+    display: block;
+
+    }
+    #quees div img{
+width: 200px;
+height: auto;
+margin: 10% 10%;
+
+
+
+
+}
+
+
+   
+#quees section div p{
 
 text-align: justify;
 font-size: 60%;
