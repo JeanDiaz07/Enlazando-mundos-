@@ -71,10 +71,11 @@
 
 /* Botón principal */
 #accordionFlushExample .accordion-button {
+  width: 200px;
   background-color: #d88a1a; /* amarillo/naranja */
   color: white;
   font-weight: bold;
-  font-size: 16px;
+  font-size:large  ;
   text-align: center;
   justify-content: center;
   border-radius: 12px;
@@ -122,10 +123,10 @@
     border-radius: 8px;
     background-color: rgb(196, 87, 54);
     width: 200px; height: 70px;
-    padding: 4px;
+    padding: 10px;
     text-decoration: none;
     font-family:'Mifuente' ;
-   
+   font-size: 50%;
     box-shadow: 5px 4px 8px rgba(0,0,0,0.45);
   }
   
