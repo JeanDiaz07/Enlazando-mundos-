@@ -56,4 +56,17 @@ button {
         }
 
 }
+#Registrarse {
+  color: black;
+ border: 2px solid black;
+
+  padding: 2px;
+background-color: beige;
+  width: 90px;
+height: auto;
+  text-decoration: none;
+
+
+}
+
 
