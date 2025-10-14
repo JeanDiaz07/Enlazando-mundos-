@@ -42,6 +42,16 @@ padding: 1% 2%;
     
 
 }
+#Valores p{
+margin-bottom: -25px;
+
+}
+#Valores a {
+font-weight: 700;
+
+
+
+}
 .accordion-body p {
 padding: 2% 20%;
 text-align: justify;
@@ -90,3 +100,4 @@ background-image:
 
 
 }
+
