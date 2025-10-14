@@ -118,6 +118,20 @@ margin: 3%;
 width: 300px;
 height: auto;
 }
+#accordionPanelsStayOpenExample #imgEspacio p{
+padding: 1% 30%;
+
+
+
+
+}
+
+#accordionPanelsStayOpenExample #imgEspacio a{
+
+    color: black;
+
+
+}
 #txtApoyo section {
 padding: 2% 20%;
 text-align: justify;
@@ -126,6 +140,16 @@ text-align: justify;
 #txtApoyo section #intro {
   text-align: center;
 }
+.accordion-item #flush-collapseFour #imgEspacio section {
+
+padding: 2% 35%;
+
+
+
+
+}
+
+
 
 .btn-whatsapp {
     position: fixed;          /* 👈 siempre visible */
