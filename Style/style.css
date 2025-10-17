@@ -57,7 +57,7 @@
   position: absolute;        /* Flotante, no afecta el layout */
   top: 20px;              /* distancia desde arriba */
   right: 20px;            /* distancia desde la derecha */
-  width: 230px;           /* ancho fijo */
+  width: 200px;           /* ancho fijo */
   z-index: 1100;          /* encima de otros elementos */
   border-radius: 12px;    /* bordes redondeados */
   box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* sombra flotante */
@@ -71,7 +71,7 @@
 
 /* Botón principal */
 #accordionFlushExample .accordion-button {
-  width:180px;
+  width:200px;
   background-color: #d88a1a; /* amarillo/naranja */
   color: white;
   font-weight: bold;
