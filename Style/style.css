@@ -71,7 +71,7 @@
 
 /* Botón principal */
 #accordionFlushExample .accordion-button {
-  width: 200px;
+  width:180px;
   background-color: #d88a1a; /* amarillo/naranja */
   color: white;
   font-weight: bold;
